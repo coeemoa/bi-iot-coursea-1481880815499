@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bi-iot-coursea
+  host: bi-iot-coursea
+  disk_quota: 1024M
+  services:
+  - bi-iot-coursea-cloudantNoSQLDB
+  - bi-iot-coursea-iotf-service
